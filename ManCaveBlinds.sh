@@ -16,6 +16,5 @@ if [ "$1" = "Set" ]; then
 fi
 
 # Update state
-echo `/var/lib/homebridge/Cmd4Scripts/State.js $@`
-exit $?
-
+echo 0
+exit 0
